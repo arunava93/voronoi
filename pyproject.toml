@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "voronoi"
+version = "0.7.0"
+description = "A custom RVE generator using voro++ as backend."
+authors = ["Semih Perdahcioglu <semih.perdahcioglu@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.0.0"
+matplotlib = "^3.9.1"
+scipy = "^1.14.0"
+gmsh = "^4.13.1"
+pyqt6 = "^6.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
